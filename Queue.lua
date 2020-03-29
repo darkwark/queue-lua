@@ -3,7 +3,7 @@
   Queue implementation for Lua
   Inspired by Queue.js (http://code.iamkate.com/javascript/queues/)
   
-  Github: https://github.com/darkwark/queue-lua
+  Github: https://github.com/darkwark/Queue.lua
   March, 2020
   --------------------------------
 ]]--

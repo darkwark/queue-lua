@@ -1,24 +1,24 @@
 # Queue.lua
-Queue implementation for Lua and PICO-8
+Queue implementation for Lua and PICO-8  
 Inspired by [Queue.js](http://code.iamkate.com/javascript/queues/)
 
 ## Reference:
-**`Queue:new()`**
+**`Queue:new()`**  
 Create a new queue
 
-**`Queue:enqueue(value)` **
+**`Queue:enqueue(value)`**  
 Add item to the queue
 
-**`Queue:dequeue()` **
+**`Queue:dequeue()`**  
 Retrieve item from the queue
 
-**`Queue:peek()` **
+**`Queue:peek()`**  
 Output the first item in queue
 
-**`Queue:isEmpty()`**
+**`Queue:isEmpty()`**  
 Check if queue is empty
 
-**`Queue:length()`**
+**`Queue:length()`**  
 Get Length of the queue
 
 ## Example
