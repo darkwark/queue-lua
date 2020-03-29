@@ -3,7 +3,7 @@
   Queue implementation for Lua (PICO-8 Version)
   Inspired by Queue.js (http://code.iamkate.com/javascript/queues/)
   
-  Github: https://github.com/darkwark/Queue.lua
+  Github: https://github.com/darkwark/queue-lua
   March, 2020
   --------------------------------
 ]]--
