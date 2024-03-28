@@ -21,6 +21,13 @@ Check if queue is empty
 **`Queue:length()`**  
 Get Length of the queue
 
+**`Queue:print()`**
+Print the Queue content onto the console
+
+**`Queue:copy()`**
+Returns a NEW Queue with the same content as the one calling the function
+
+
 ## Example
 ```lua
 local q = Queue:new()

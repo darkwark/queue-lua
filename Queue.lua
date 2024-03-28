@@ -34,6 +34,26 @@ function Queue:enqueue(item)
   return self
 end
 
+function Queue:print()
+  local str = ''
+  for i = 1, #self.list do
+    str = i == #self.list and str..tostring(self.list[i]) or str..tostring(self.list[i])..', ' 
+  end
+  print(str)
+end
+
+function Queue:copy()
+  if not self:isEmpty() then
+    local newQueue = self:new()
+
+    for i = 1, #self.list do
+      table.insert(newQueue.list, self.list[i])
+    end
+
+    return newQueue
+  end
+end
+
 function Queue:peek()
   if not self:isEmpty() then
     return self.list[self.offset]
