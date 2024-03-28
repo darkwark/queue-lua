@@ -35,7 +35,7 @@ function Queue:enqueue(item)
 end
 
 function Queue:print()
-  local str = ''
+  local str = 'Peek --> '
   for i = 1, #self.list do
     str = i == #self.list and str..tostring(self.list[i]) or str..tostring(self.list[i])..', ' 
   end

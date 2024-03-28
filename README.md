@@ -22,7 +22,7 @@ Check if queue is empty
 Get Length of the queue
 
 **`Queue:print()`**
-Print the Queue content onto the console
+Print the Queue content to the console
 
 **`Queue:copy()`**
 Returns a NEW Queue with the same content as the one calling the function
