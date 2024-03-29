@@ -35,13 +35,17 @@ local q = Queue:new()
 q:enqueue(3)
 q:enqueue(5)
 q:enqueue(10) 
--- q = { 3, 5, 10 }
+q:print() --> Peek -> 3, 5, 10
 
 print(q:length()) --> 3
-  
+
+local qCopy = q:copy()
+qCopy:print() --> Peek -> 3, 5, 10
+
 print(q:dequeue()) --> 3
 print(q:dequeue()) --> 5
 print(q:dequeue()) --> 10
 
 print(q:isEmpty()) --> true
+print(qCopy:isEmpty()) --> false
 ```
