@@ -7,25 +7,25 @@ Inspired by [Queue.js](http://code.iamkate.com/javascript/queues/)
 Create a new queue
 
 **`Queue:enqueue(value)`**  
-Add item to the queue
+Add item to the Queue
 
 **`Queue:dequeue()`**  
-Retrieve item from the queue
+Retrieve item from the Queue
 
 **`Queue:peek()`**  
-Output the first item in queue
+Output the first item in Queue
 
 **`Queue:isEmpty()`**  
-Check if queue is empty
+Check if Queue is empty
 
 **`Queue:length()`**  
-Get Length of the queue
+Get Length of the Queue
 
-**`Queue:print()`**
+**`Queue:print()`**  
 Print the Queue content to the console
 
-**`Queue:copy()`**
-Returns a NEW Queue with the same content as the one calling the function
+**`Queue:copy()`**  
+Returns a _new_ Queue with the same content as the one calling the function
 
 
 ## Example
